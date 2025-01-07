@@ -1,4 +1,13 @@
+<script>
+import Navbar from './Navbar.vue';
+export default {
+components:{
+    Navbar
+}
+}
+</script>
 <template>
+    <Navbar/>
     <h1>Hello App !</h1>
     <p>
         <strong>Current route path: </strong> {{ $route.fullPath }}
@@ -11,5 +20,3 @@
         <router-view/>
     </main>
 </template>
-<script>
-</script>
