@@ -1,6 +1,6 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 .link{
     margin: 10px;
@@ -8,4 +8,7 @@
 .link.active{
     background-color: red;
     color: white;
+}
+.container{
+    font-family: Oswald, Helvetica, sans-serif;
 }

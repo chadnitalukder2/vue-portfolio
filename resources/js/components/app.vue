@@ -1,42 +1,41 @@
 <script>
 import Navbar from './Navbar.vue';
+import Sidebar from './Sidebar.vue';
 export default {
-components:{
-    Navbar
-}
+    components: {
+        Navbar,
+        Sidebar
+    }
 }
 </script>
 <template>
-    <Navbar/>
-    <h1>Hello App !</h1>
-    <p>
-        <strong>Current route path: </strong> {{ $route.fullPath }}
-    </p>
-    <nav>
-        <router-link class="link" to="/">Home</router-link>
-        <router-link class="link" to="/about">About</router-link>
-    </nav>
-    <main>
-        <router-view/>
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+    <div class="main_container">
+        <div class="left_content">
+            <Sidebar />
+        </div>
+        <div class="right_content">
+            <navbar />
+            <main>
+                <router-view />
+            </main>
+        </div>
+    </div>
 </template>
+
+<style lang="scss" scoped>
+.main_container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+
+    .left_content {
+        flex-basis: 25%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .right_content {
+        flex-basis: 85%;
+    }
+}
+</style>
