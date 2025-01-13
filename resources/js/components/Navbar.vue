@@ -8,16 +8,17 @@
                     <router-link to="/">About me</router-link>
                 </li>
                 <li>
-                    <a class="pt-trigger" href="#resume" data-animation="59" data-goto="2">Resume</a>
+                    <router-link to="resume">Resume </router-link>
                 </li>
                 <li>
-                    <a class="pt-trigger" href="#portfolio" data-animation="60" data-goto="3">Portfolio</a>
+                    <router-link to="portfolio">Portfolio </router-link>
                 </li>
                 <li>
+
                     <a class="pt-trigger" href="#blog" data-animation="61" data-goto="4">Blog</a>
                 </li>
                 <li>
-                    <a class="pt-trigger" href="#contact" data-animation="58" data-goto="5">Contact</a>
+                    <router-link to="contact">Contact </router-link>
                 </li>
             </ul>
             <!-- /Main menu -->
