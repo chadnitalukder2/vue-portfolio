@@ -13,6 +13,7 @@ export default {
         <div class="left_content">
             <Sidebar />
         </div>
+        <div class="middle"></div>
         <div class="right_content">
             <navbar />
             <main>
@@ -25,7 +26,6 @@ export default {
 <style lang="scss" scoped>
 .main_container {
     display: flex;
-    gap: 10px;
     width: 100%;
 
     .left_content {
@@ -36,7 +36,11 @@ export default {
         display: block;
         
     }
-
+    .middle{
+        width: 6px;
+        height: 100vh;
+        background: #00000014;
+    }
     .right_content {
         flex-basis: 85%;
     }
