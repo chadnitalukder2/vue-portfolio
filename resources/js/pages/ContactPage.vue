@@ -194,6 +194,7 @@
     font-size: 14px;
     font-weight: 500;
     width: 140px;
+    margin-top: 12px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
