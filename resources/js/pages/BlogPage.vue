@@ -1,8 +1,8 @@
 <template>
     <section class="about_section">
         <div class="section-title-block">
-            <h2 class="section-title">Portfolio</h2>
-            <h5 class="section-description">My Best Works</h5>
+            <h2 class="section-title">Blog</h2>
+            <h5 class="section-description">My Diary</h5>
         </div>
     </section>
 </template>
@@ -27,6 +27,7 @@
             line-height: 1.1em;
             font-weight: 500;
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+
             &:after {
                 display: block;
                 width: 5px;
@@ -40,13 +41,14 @@
                 background: #ebbd34;
             }
         }
+
         .section-description {
-    display: inline-block;
-    margin: 0 0 0 15px;
-    color: #888;
-    font-size: 14px;
-    font-weight: 200;
-}
+            display: inline-block;
+            margin: 0 0 0 15px;
+            color: #888;
+            font-size: 14px;
+            font-weight: 200;
+        }
     }
 }
 </style>

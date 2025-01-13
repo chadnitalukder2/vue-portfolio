@@ -18,6 +18,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 #site_header {
     position: fixed;
+    background: #b0d4e3;
+    height: 100vh;
     font-family: Oswald, Helvetica, sans-serif;
     .site-title-block {
         margin: 30px 30px 60px 30px;

@@ -4,6 +4,7 @@ import about from '../pages/AboutPage.vue';
 import portfolio from '../pages/PortfolioPage.vue';
 import resume from '../pages/ResumePage.vue';
 import contact from '../pages/ContactPage.vue';
+import blog from '../pages/BlogPage.vue';
 
 import notFound from '../components/NotFound.vue';
 
@@ -22,6 +23,11 @@ const routes = [
         path: '/portfolio',
         name:portfolio,
         component: portfolio
+    },
+    {
+        path: '/blog',
+        name:blog,
+        component: blog
     },
     {
         path: '/contact',

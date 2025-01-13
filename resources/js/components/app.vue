@@ -32,13 +32,12 @@ export default {
         flex-basis: 25%;
         height: 100vh;
         overflow: hidden;
-        background: #b0d4e3;
         display: block;
         
     }
     .middle{
         width: 6px;
-        height: 100vh;
+        height: auto;
         background: #00000014;
     }
     .right_content {

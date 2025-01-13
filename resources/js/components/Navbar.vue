@@ -14,8 +14,7 @@
                     <router-link to="portfolio">Portfolio </router-link>
                 </li>
                 <li>
-
-                    <a class="pt-trigger" href="#blog" data-animation="61" data-goto="4">Blog</a>
+                    <router-link to="blog">Blog </router-link>
                 </li>
                 <li>
                     <router-link to="contact">Contact </router-link>
