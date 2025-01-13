@@ -30,8 +30,11 @@ export default {
 
     .left_content {
         flex-basis: 25%;
-        height: 100%;
+        height: 100vh;
         overflow: hidden;
+        background: #b0d4e3;
+        display: block;
+        
     }
 
     .right_content {
