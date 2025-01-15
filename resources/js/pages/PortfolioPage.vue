@@ -150,6 +150,7 @@
                     padding: 5px 10px;
                     font-size: 14px;
                     line-height: 1.5;
+                    transition: all .3s;
                 }
 
                 .active,
@@ -172,26 +173,24 @@
 
             a {
                 position: relative;
-
                 img {
                     display: block;
                     width: 100%;
                 }
             }
 
-
             .details {
                 position: absolute;
-                background: #4f565e;
                 background: rgba(79, 86, 94, 0.7);
                 width: 100%;
                 height: 100%;
                 color: #888;
-                display: block;
-                left: 0px;
+                display: none;
+                left: 0;
                 top: 100%;
-                visibility: hidden;
-                transition: 300ms;
+                opacity: 0;
+                transition: all .3s ;
+
                 .name {
                     display: inline-block;
                     font-size: 1rem;
@@ -218,12 +217,14 @@
                     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
                 }
             }
-            &:hover{
-                .details{
-                    top: 0px;
-                    visibility: visible;
-                }
-            }
+        }
+
+
+        .item:hover .details {
+            top: 0;
+            opacity: 1;
+            visibility: visible;
+            display: inline-block;
         }
 
     }
