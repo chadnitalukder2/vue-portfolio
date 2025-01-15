@@ -74,7 +74,7 @@
                 </a>
             </div>
             <div class="item">
-                <a class="ajax-page-load" href="portfolio-1.html">
+                <a href="portfolio-1.html">
                     <img src="../../img/2m-img.jpg" alt="">
                     <div class="details">
                         <h5 class="name">Project Name</h5>
@@ -169,63 +169,66 @@
         grid-template-columns: repeat(4, 1fr);
 
         .item {
-            transition: transform 450ms ease-out, opacity 450ms ease-out;
-
             a {
+                transition: all .3s;
                 position: relative;
                 img {
                     display: block;
                     width: 100%;
                 }
-            }
 
-            .details {
-                position: absolute;
-                background: rgba(79, 86, 94, 0.7);
-                width: 100%;
-                height: 100%;
-                color: #888;
-                display: none;
-                left: 0;
-                top: 100%;
-                opacity: 0;
-                transition: all .3s ;
+                .details {
+                    position: absolute;
+                    background: rgba(79, 86, 94, 0.7);
+                    width: 100%;
+                    height: 100%;
+                    color: #888;
+                    left: 0;
+                    top: 0px;
+                    opacity: 0;
+                    transition: all .3s;
 
-                .name {
-                    display: inline-block;
-                    font-size: 1rem;
-                    margin: 10px 0;
-                    color: #fff;
-                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-                    padding: 5px 20px;
+                    .name {
+                        display: inline-block;
+                        font-size: 1rem;
+                        margin: 10px 0;
+                        color: #fff;
+                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+                        padding: 5px 20px;
 
-                    &::after {
-                        display: block;
-                        content: '';
-                        width: 100%;
-                        height: 2px;
-                        margin: 0 auto;
-                        background-color: #ffcd38;
+                        &::after {
+                            display: block;
+                            content: '';
+                            width: 100%;
+                            height: 2px;
+                            margin: 0 auto;
+                            background-color: #ffcd38;
+                        }
+                    }
+
+                    small {
+                        color: #eee;
+                        position: absolute;
+                        bottom: 10px;
+                        left: 20px;
+                        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
                     }
                 }
 
-                small {
-                    color: #eee;
-                    position: absolute;
-                    bottom: 10px;
-                    left: 20px;
-                    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+                &:hover {
+                    .details {
+                        top: 0;
+                        opacity: 1;
+                        visibility: visible;
+                    }
                 }
             }
+
+
         }
 
 
-        .item:hover .details {
-            top: 0;
-            opacity: 1;
-            visibility: visible;
-            display: inline-block;
-        }
+
 
     }
 }

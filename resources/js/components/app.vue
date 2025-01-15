@@ -32,8 +32,7 @@ export default {
         flex-basis: 25%;
         height: 100vh;
         overflow: hidden;
-        display: block;
-        
+        background: #b0d4e3;
     }
     .middle{
         width: 6px;

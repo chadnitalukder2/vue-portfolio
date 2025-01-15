@@ -1,5 +1,5 @@
 <template>
-    <header id="site_header" class="header">
+    <div  class="header">
         <div class="site-title-block">
             <h1 class="site-title">Chadni Talukder</h1>
             <p class="site-description">Web Developer</p>
@@ -10,20 +10,23 @@
             <div class="mask"></div>
         </div>
 
-    </header>
+    </div>
 </template>
 
 <style lang="scss" scoped>
 //@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
-#site_header {
+
+.header {
     position: fixed;
-    background: #b0d4e3;
-    height: 100vh;
-    font-family: Oswald, Helvetica, sans-serif;
+       width: 22%;
+        height: 100vh;
+        background: #b0d4e3  ;
+        font-family: Oswald, Helvetica, sans-serif;
     .site-title-block {
-        margin: 30px 30px 60px 30px;
+        margin: 30px 43px 60px 43px;
         text-align: center;
+       
 
         .site-title {
             color: #fff;
@@ -32,7 +35,7 @@
             line-height: 1.1em;
             margin: 15px 0 0 0;
             text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-            font-family:Oswald, Helvetica, sans-serif;
+            font-family: Oswald, Helvetica, sans-serif;
         }
 
         .site-description {
@@ -52,6 +55,7 @@
         background-color: #c2e5e5db;
         overflow: hidden;
         margin: 0 auto;
+
         img {
             height: 100%;
             max-width: none;

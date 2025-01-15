@@ -186,10 +186,6 @@
             background: rgba(79, 86, 94, 0.6);
             display: inline-block;
             font-family: 'Pe-icon-7-stroke';
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            line-height: 1;
             width: 100%;
             left: 0;
             bottom: 0;

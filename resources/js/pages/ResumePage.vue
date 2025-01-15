@@ -169,7 +169,7 @@
 .section {
     border-left: 1px solid #f4f9ed;
     background-color: white;
-    flex-basis: 30%;
+    flex-basis: 31%;
     padding-left: 23px;
 }
 
