@@ -43,4 +43,8 @@ export default {
         flex-basis: 85%;
     }
 }
+
+
+
+
 </style>
