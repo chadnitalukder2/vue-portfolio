@@ -130,7 +130,7 @@ function toggleMenu() {
         flex-direction: column;
         background-color: #fff;
         position: absolute;
-        top: 60px;
+        top: 50px;
         width: 100%;
         left: 0;
         transition: all 0.66s ease-in-out;
