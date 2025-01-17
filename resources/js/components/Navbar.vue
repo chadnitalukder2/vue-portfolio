@@ -91,6 +91,9 @@ function toggleMenu() {
                     background-color: #ffcd38;
                     margin: 0 auto;
                 }
+                .router-link-active{
+                    color: #ffcd38;
+                }
             }
         }
     }
