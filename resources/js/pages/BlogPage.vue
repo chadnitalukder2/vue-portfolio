@@ -114,6 +114,9 @@
     width: 100%;
     height: auto;
     font-family: Oswald, Helvetica, sans-serif;
+    @media (max-width: 1098px) {
+        padding: 0 20px 50px;
+        }
 
     .section-title-block {
         margin-bottom: 40px;
@@ -158,6 +161,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    width: 100%;
 }
 
 .card {
@@ -165,8 +169,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 47%;
-    max-width: 500px;
+    width: 48%;
     position: relative;
     transition: all .3s ease;
 

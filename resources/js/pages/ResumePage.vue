@@ -120,6 +120,9 @@
     width: 100%;
     height: auto;
     font-family: Oswald, Helvetica, sans-serif;
+    @media (max-width: 1098px) {
+        padding: 0 20px 50px;
+        }
 
     .section-title-block {
         margin-bottom: 40px;
