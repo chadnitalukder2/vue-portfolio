@@ -1,10 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 
-// Reactive variable for toggling menu
 const isMenuOpen = ref(false);
-
-// Function to toggle menu state
 function toggleMenu() {
     isMenuOpen.value = !isMenuOpen.value;
 }
