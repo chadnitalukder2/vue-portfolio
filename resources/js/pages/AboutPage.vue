@@ -4,6 +4,10 @@
             <h2 class="section-title">About Me</h2>
             <h5 class="section-description">Artist, Thinker, Creative Doer</h5>
         </div>
+        <div class="my-photo">
+            <img src="../../img/profile.png" alt="image">
+            <div class="mask"></div>
+        </div>
 
         <div class="about_me">
 
@@ -128,9 +132,34 @@
     width: 100%;
     height: auto;
     font-family: Oswald, Helvetica, sans-serif;
+
     @media (max-width: 1098px) {
         padding: 0 20px 50px;
+    }
+
+    .my-photo {
+        height: 170px;
+        width: 170px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #c2e5e5db;
+        overflow: hidden;
+        margin: 0 auto 40px;
+
+        img {
+            height: 100%;
+            max-width: none;
+            // min-height: 550px;
+            // position: absolute;
+            // top: 0;
+            // left: 50%;
+            // transform: translate(-50%, 0);
         }
+
+        @media (min-width: 1098px) {
+            display: none;
+        }
+    }
 
     .section-title-block {
         margin-bottom: 40px;
@@ -177,6 +206,10 @@
         .general-info {
             flex-basis: 70%;
 
+            @media (max-width: 1098px) {
+                flex-basis: 100%;
+            }
+
             .title {
                 color: #222;
                 font-family: Oswald, Helvetica, sans-serif;
@@ -201,6 +234,10 @@
             width: 175px;
             background: rgb(218 253 253 / 39%);
             height: 180px;
+
+            @media (max-width: 1098px) {
+                display: none;
+            }
 
             img {
                 width: 100%;
@@ -232,12 +269,21 @@
     }
 
     .service_section {
-        display: flex;
-        gap: 15px;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        
+        @media (max-width: 1277px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media (max-width: 702px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 459px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
 
         .service-block {
-            flex-basis: 23%;
             text-align: center;
 
             .service-info {
@@ -275,9 +321,20 @@
     }
 
     .fun-facts {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
         gap: 20px;
-        flex-wrap: wrap;
+        
+        @media (max-width: 1277px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        @media (max-width: 702px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 459px) {
+            grid-template-columns: repeat(1, 1fr);
+           
+        }
     }
 
     .fact {
