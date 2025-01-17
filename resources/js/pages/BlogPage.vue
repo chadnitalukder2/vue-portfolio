@@ -175,7 +175,7 @@
 
     .image-box {
         position: relative;
-        height: 212px;
+        height: 250px;
         width: 100%;
 
         img {

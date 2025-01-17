@@ -69,7 +69,7 @@
 
     @media (max-width: 1098px) {
         padding: 0 20px 50px;
-        }
+    }
 
     .section-title-block {
         margin-bottom: 40px;
@@ -111,20 +111,18 @@
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 900px;
-    width: 100%;
-    gap: 30px;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    @media (max-width: 741px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .contact-info,
 .contact-form {
-    flex-basis: 47%;
-    @media (max-width: 741px) {
-        flex-basis: 100%;
-        }
+
+   
 
 }
 
@@ -189,7 +187,9 @@
         width: 100%;
         box-sizing: border-box;
     }
-    textarea:focus-visible,input:focus-visible{
+
+    textarea:focus-visible,
+    input:focus-visible {
         outline: none;
         border-bottom: 2px solid #f1c40f;
     }
