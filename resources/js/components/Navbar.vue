@@ -38,9 +38,12 @@ function toggleMenu() {
         <!-- Mobile Navbar -->
         <div class="mbl_navbar">
             <div class="logo">Chadni Talukder</div>
-            <div class="menu-icon" @click="toggleMenu">
-                =
-                <!-- <i class="fas fa-bars"></i> Make sure FontAwesome is properly loaded -->
+
+
+            <div class="hamburger-lines" @click="toggleMenu">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
             </div>
             <div :class="['nav-links', { 'nav-links-open': isMenuOpen }]">
                 <router-link @click="toggleMenu" to="/">About me</router-link>
@@ -91,7 +94,8 @@ function toggleMenu() {
                     background-color: #ffcd38;
                     margin: 0 auto;
                 }
-                .router-link-active{
+
+                .router-link-active {
                     color: #ffcd38;
                 }
             }
@@ -111,7 +115,7 @@ function toggleMenu() {
     z-index: 100;
     position: fixed;
 
-    .logo{
+    .logo {
         font-size: 18px;
         margin: 0;
         line-height: 50px;
@@ -120,9 +124,35 @@ function toggleMenu() {
         font-family: Oswald, Helvetica, sans-serif;
     }
 
-    .menu-icon {
-        font-size: 1.5em;
-        cursor: pointer;
+    .hamburger-lines {
+        display: block;
+        height: 20px;
+        width: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .line {
+            display: block;
+            height: 2px;
+            width: 100%;
+            border-radius: 10px;
+            background: #000;
+        }
+
+        .line1 {
+            transform-origin: 0% 0%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .line2 {
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .line3 {
+            transform-origin: 0% 100%;
+            transition: transform 0.3s ease-in-out;
+        }
     }
 
     .nav-links {
@@ -156,7 +186,8 @@ function toggleMenu() {
             background-color: #ffcd38;
             margin: 0 auto;
         }
-        .router-link-active{
+
+        .router-link-active {
             color: #ffcd38;
         }
 
