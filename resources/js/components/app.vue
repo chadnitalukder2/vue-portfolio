@@ -33,18 +33,28 @@ export default {
         height: 100vh;
         overflow: hidden;
         background: #b0d4e3;
+
+        @media (max-width: 1098px) {
+            display: none;
+        }
+
     }
-    .middle{
+
+    .middle {
         width: 6px;
         height: auto;
         background: #00000014;
+
+        @media (max-width:1098px) {
+            display: none;
+        }
     }
+
     .right_content {
         flex-basis: 85%;
+        @media (max-width: 1098px) {
+            flex-basis: 100%;
+        }
     }
 }
-
-
-
-
 </style>

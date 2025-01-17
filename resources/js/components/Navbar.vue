@@ -1,40 +1,44 @@
 <template>
-    <div class="navbar">
-        <div class="left_nav">
-            <!-- Main menu -->
-            <ul class="site-main-menu">
-                <!-- About Me Subpage link -->
-                <li >
-                    <router-link to="/">About me</router-link>
-                </li>
-                <li>
-                    <router-link to="resume">Resume </router-link>
-                </li>
-                <li>
-                    <router-link to="portfolio">Portfolio </router-link>
-                </li>
-                <li>
-                    <router-link to="blog">Blog </router-link>
-                </li>
-                <li>
-                    <router-link to="contact">Contact </router-link>
-                </li>
-            </ul>
-            <!-- /Main menu -->
+    <div class="nav">
+        <div class="navbar">
+            <div class="left_nav">
+                <!-- Main menu -->
+                <ul class="site-main-menu">
+                    <!-- About Me Subpage link -->
+                    <li>
+                        <router-link to="/">About me</router-link>
+                    </li>
+                    <li>
+                        <router-link to="resume">Resume </router-link>
+                    </li>
+                    <li>
+                        <router-link to="portfolio">Portfolio </router-link>
+                    </li>
+                    <li>
+                        <router-link to="blog">Blog </router-link>
+                    </li>
+                    <li>
+                        <router-link to="contact">Contact </router-link>
+                    </li>
+                </ul>
+                <!-- /Main menu -->
 
-            <!-- Social buttons -->
-            <ul class="social-links">
-                <li><a class="tip social-button" href="#" title="Twitter"><i class="fa-solid fa-house"></i>git</a></li>
-                <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
-                <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-            </ul>
-            <!-- /Social buttons -->
-        </div>
-        <div class="right-nav">
-
+                <!-- Social buttons -->
+                <ul class="social-links">
+                    <li><a class="tip social-button" href="#" title="Twitter"><i class="fa-solid fa-house"></i>git</a>
+                    </li>
+                    <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+                    <li><a class="tip social-button" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="tip social-button" href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                </ul>
+                <!-- /Social buttons -->
+            </div>
+            <div class="right-nav">
+            </div>
         </div>
     </div>
+
 </template>
 <style lang="scss">
 .navbar {
@@ -57,6 +61,7 @@
             li {
                 display: inline-block;
                 position: relative;
+
                 a {
                     color: #222;
                     font-size: 15px;
@@ -66,7 +71,8 @@
                     outline: none;
                     transition: all .3s;
                 }
-                a:hover{
+
+                a:hover {
                     &::after {
                         display: block;
                         position: absolute;
@@ -80,7 +86,8 @@
                         background-color: #ffcd38;
                     }
                 }
-                .router-link-active{
+
+                .router-link-active {
                     &::after {
                         display: block;
                         position: absolute;
@@ -98,4 +105,7 @@
         }
     }
 }
+
+
+
 </style>
