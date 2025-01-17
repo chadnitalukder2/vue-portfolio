@@ -25,7 +25,7 @@
         <div class="portfolio-item-block">
             <div class="item">
                 <a class="ajax-page-load" href="portfolio-1.html">
-                    <img src="../../img/1s-item.jpg" alt="">
+                    <img src="../../img/7th-img.jpg" alt="">
                     <div class="details">
                         <h5 class="name">Project Name</h5>
                         <small>Media</small>
@@ -45,7 +45,7 @@
             </div>
             <div class="item">
                 <a class="ajax-page-load" href="portfolio-1.html">
-                    <img src="../../img/2m-img.jpg" alt="">
+                    <img src="../../img/3rd-img.jpg" alt="">
                     <div class="details">
                         <h5 class="name">Project Name</h5>
                         <small>Media</small>
@@ -55,7 +55,7 @@
             </div>
             <div class="item">
                 <a class="ajax-page-load" href="portfolio-1.html">
-                    <img src="../../img/2m-img.jpg" alt="">
+                    <img src="../../img/4th-img.jpg" alt="">
                     <div class="details">
                         <h5 class="name">Project Name</h5>
                         <small>Media</small>
@@ -65,7 +65,7 @@
             </div>
             <div class="item">
                 <a class="ajax-page-load" href="portfolio-1.html">
-                    <img src="../../img/2m-img.jpg" alt="">
+                    <img src="../../img/5th-img.jpg" alt="">
                     <div class="details">
                         <h5 class="name">Project Name</h5>
                         <small>Media</small>
@@ -75,7 +75,27 @@
             </div>
             <div class="item">
                 <a href="portfolio-1.html">
-                    <img src="../../img/2m-img.jpg" alt="">
+                    <img src="../../img/4th-img.jpg">
+                    <div class="details">
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="portfolio-1.html">
+                    <img src="../../img/5th-img.jpg">
+                    <div class="details">
+                        <h5 class="name">Project Name</h5>
+                        <small>Media</small>
+                        <i class="fa fa-file-text-o"></i>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="portfolio-1.html">
+                    <img src="../../img/6th-img.jpg">
                     <div class="details">
                         <h5 class="name">Project Name</h5>
                         <small>Media</small>

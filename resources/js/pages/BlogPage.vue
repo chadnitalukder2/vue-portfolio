@@ -9,7 +9,7 @@
             <div class="card">
                 <div class="image-box">
                      <a href="#">
-                        <img alt="A frog riding a bicycle" src="../../img/4th-img.jpg" />
+                        <img alt="A frog riding a bicycle" src="../../img/blog_post_1.jpg" />
                         <div class="mask"> </div>
                     </a>
                 </div>
@@ -34,7 +34,7 @@
             <div class="card">
                 <div class="image-box">
                     <a href="#">
-                        <img alt="A frog riding a bicycle" src="../../img/4th-img.jpg" />
+                        <img alt="A frog riding a bicycle" src="../../img/blog_post_2.jpg" />
                         <div class="mask"> </div>
                     </a>
 
@@ -59,7 +59,7 @@
             <div class="card">
                 <div class="image-box">
                      <a href="#">
-                        <img alt="A frog riding a bicycle" src="../../img/4th-img.jpg" />
+                        <img alt="A frog riding a bicycle" src="../../img/blog_post_3.jpg" />
                         <div class="mask"> </div>
                     </a>
                 </div>
@@ -83,7 +83,7 @@
             <div class="card">
                 <div class="image-box">
                      <a href="#">
-                        <img alt="A frog riding a bicycle" src="../../img/4th-img.jpg" />
+                        <img alt="A frog riding a bicycle" src="../../img/blog_post_5.jpg" />
                         <div class="mask"> </div>
                     </a>
                 </div>
