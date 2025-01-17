@@ -120,9 +120,10 @@
     width: 100%;
     height: auto;
     font-family: Oswald, Helvetica, sans-serif;
+
     @media (max-width: 1098px) {
         padding: 0 20px 50px;
-        }
+    }
 
     .section-title-block {
         margin-bottom: 40px;
@@ -164,15 +165,20 @@
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
     gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    @media (max-width: 1098px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 772px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .section {
     border-left: 1px solid #f4f9ed;
     background-color: white;
-    flex-basis: 31%;
     padding-left: 23px;
 }
 
@@ -273,7 +279,8 @@
         border-radius: 0;
         font-family: 'PT Sans', Helvetica, sans-serif;
         transition: all .3s;
-        &:hover{
+
+        &:hover {
             background-color: #ffcd38;
             color: #fff;
         }
