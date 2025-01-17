@@ -151,7 +151,8 @@
 
         img {
             height: 100%;
-            max-width: none;
+            width: 100%;
+            margin: 0 auto;
             // min-height: 550px;
             // position: absolute;
             // top: 0;
