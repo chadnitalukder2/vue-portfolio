@@ -122,7 +122,10 @@
     font-family: Oswald, Helvetica, sans-serif;
 
     @media (max-width: 1098px) {
-        padding: 0 20px 50px;
+        padding: 15px 20px 60px;
+        position: absolute;
+        top: 55px;
+        left: 0;
     }
 
     .section-title-block {
