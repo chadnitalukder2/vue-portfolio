@@ -126,12 +126,6 @@
 
     </section>
 
-
-
-
-
-
-    
 </template>
 <style lang="scss" scoped>
 .about_section {
